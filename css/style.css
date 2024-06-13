@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #000000;
+  --secondaryColor: #19001b;
+  --acsentColor: #00e3aa;
+}
+
+body {
+  background: var(--mainColor);
+
+  min-height: 900px;
+}
+
+section {
+  padding-top: 2rem;
+}
+/* Navbar */
+
+.nav-link {
+  margin-right: 30px;
+}
+
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #00e3aa;
+}
+/* navbar End */
+
+/* Jumbotron */
+.jumbotron {
+  background: url("Picture/bgr.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 12.3%;
+  color: rgb(255, 255, 255);
+  padding: rgb(2rem 2rem);
+  background-color: rgb(237, 235, 255);
+}
+
+.jumbotron .display-5 {
+  font-size: 15px;
+  font-family: oxanium;
+}
+
+.jumbotron .display-3 {
+  font-family: oxanium;
+  color: #ffffff;
+}
+
+.iqbal {
+  background-color: #000000;
+}
+
+.download {
+  font-size: 13px;
+}
+
+.btn-dark {
+  background: rgb(0, 135, 101);
+  background: linear-gradient(0deg, rgba(0, 135, 101, 1) 0%, rgba(0, 227, 170, 1) 62%, rgba(95, 255, 215, 1) 100%);
+  color: #000000;
+
+  border-radius: 10px;
+}
+
+.jumbotron .display-3 span {
+  color: #00e3aa;
+}
+
+.Expertise .p span {
+  color: #00e3aa;
+}
+
+.card0 {
+  padding: 5px;
+  background: url("Picture/bgcard3.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: var(--mainColor);
+  border-color: var(--mainColor);
+  border-radius: 20px;
+}
+
+.pembatas {
+  color: #000000;
+}
+
+.daft {
+  background-color: #000000;
+}
+
+.explore {
+  font-size: medium;
+}
+
+.col-aboutme {
+  color: #d5d5d5;
+}
+.catatan-aboutme {
+  color: #adadad;
+}
+
+.garis1 {
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+}
+.garis {
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+}
+
+.catatan1 {
+  font-family: oxanium;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.judul2 {
+  color: #cdcdcd;
+}
+.catatan {
+  color: #adadad;
+}
+
+.daftar {
+  font-family: oxanium;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.daftar-text {
+  color: #f0f0f0;
+  font-size: 10px;
+}
+
+.bi {
+  color: var(--acsentColor);
+}
+
+.bi1 {
+  color: var(--acsentColor);
+}
+
+.bi2 {
+  color: var(--mainColor);
+  font-size: 20px;
+}
+
+.card {
+  padding: 5px;
+  background-color: var(--mainColor);
+  border-color: #444444;
+  border-radius: 20px;
+}
+
+.card2 {
+  padding: 5px;
+  background-color: #1c1c1c;
+  background: url("Picture/warnacard3.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.about {
+  font-size: 20px;
+  color: var(--acsentColor);
+}
+
+.abouttext {
+  font-family: oxanium;
+  font-size: 30px;
+  color: #f0f0f0;
+}
+
+.card-ui {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #181818;
+}
+
+.card-img-top {
+  border-radius: 23px;
+  padding: 10px;
+}
+
+.btnui {
+  background: rgb(0, 135, 101);
+  background: linear-gradient(0deg, rgba(0, 135, 101, 1) 0%, rgba(0, 227, 170, 1) 62%, rgba(95, 255, 215, 1) 100%);
+  color: #000000;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.card-title {
+  color: #e9e9e9;
+}
+
+.icon-program {
+  color: #000000;
+}
+
+.textfooter {
+  color: #888888;
+  font-family: oxanium;
+  font-size: 15px;
+}
+
+.bi4 {
+  color: #000000;
+}
+
+.bi5 {
+  color: #adadad;
+  font-size: 15px;
+}
+
+.duties-date {
+  font-size: small;
+  color: #e3e3e3;
+}
+
+.duties {
+  font-size: small;
+  color: #bfbfbf;
+}
+
+.span-experience {
+  color: #00e3aa;
+}
+
+/* background */
+
+/* background end */
